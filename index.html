@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> My Portfolio </title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 500px)" href="mystyle.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="mystyle2.css">
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/elusive-icons/2.0.0/css/elusive-icons.min.css">
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<link href='https://fonts.googleapis.com/css?family=Kalam:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700italic' rel='stylesheet' type='text/css'>
+
+<script src="jquery.js"></script>
+<script src="typeit.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse" id="navig"> 
+<div class="container-fluid">
+    
+    <div class="navbar-header"> 
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="ime" class="navbar-brand"  href="#">Vera Genova </a> 
+	  </div>  
+	  <div class="collapse navbar-collapse" id="myNavbar">
+	  
+  <ul id="nav-menu" class="nav navbar-nav navbar-right"> 
+    
+    <li><a href="#aboutme">About</a> </li>
+    <li><a href="#dvi">Portfolio</a> </li>
+    <li><a href="#contacts">Contact</a> </li>
+    </ul>
+    
+  </div>
+  </div>
+  
+
+</nav>
+  <div  id='wrapper'>
+
+<div class="container-fluid first" id="first">
+
+   <div class='row' id='about'>
+  
+ 
+    
+    <div class="col-md-9 col-sm-12 col-xs-12" id="aboutme" onmouseover="changeFont(this)" onmouseout="changeFont2(this)" > Hi :) <br>
+      <span class='type-it'>
+    
+    My educational background:<br>
+    highschool degree in business management; <br> 
+    BA in English and Bulgarian philology; <br>
+    I worked two years as an English teacher, but my real passion is for computers and web development. So I started to educate my self on the subject, doing some courses online (Khan academy, freecode camp, codecademy), reading books on front-end web development. I have basic understanding of html, css, less, bootstrap, javascript, jquery.  
+      <br> </span>
+   
+</div>
+   <div class="col-md-3 col-xs-12">
+    <img onmouseover="me(this)" onmouseout="dragon(this)" class="img-circle" id="dragon" src="https://pixabay.com/static/uploads/photo/2015/04/08/04/41/the-chinese-dragon-712149_960_720.jpg"/>
+    </div> 
+      <!-- clouds images -->
+   
+<img class="cloud med" src="http://res.cloudinary.com/dx3esa92w/image/upload/v1465902287/diff_mkfudn.png" width="640" height="331"/>
+   <img class="cloud diff" src="http://res.cloudinary.com/dx3esa92w/image/upload/v1465902287/diff_mkfudn.png" width="640" height="331"/>
+
+   <!-- end -->
+    
+ </div> 
+  <h2 id="logo"> DragonicFAITH Web Design Studio</h2> 
+  </div>
+    
+  
+  
+  
+ <div class="container-fluid scene" id="dvi"> 
+
+   <h1>Portfolio
+   <!-- Source Code icon by Icons8 -->
+<img class="icon icons8-Source-Code" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADlklEQVRoge2YTWgTQRTHV6w9CK0KBbHVmtmKFsRSEOqhdGf7gVqFMm9DoCgoiBcplB48iaBQqWIF6UdmG1RQwUsPLZKdDaJQ8AMstAgerKIXEepBKe3OFhEP8ZLU7CQ0s2l0EfYHe8q89/5v9r2Zt1GUkJCQkJCQkOJE4m4zovwNovxyQ3xlX9B6fIMoH0SUp7OPSrkZtCZ5JtObEeXPcxOImLw/aFnSqNTtyhWPKP+mjrmHgtYlDTL5NSGBycDE6MQa0ICZuj5TIbP+4GS6UqX8laf+TX4hz68+U6EBM3ViDZRfdTYIsD4MzMHA0thgD9uiqaZiNhHTPSbs/mJkzGnMXdMWTTVhgz3EwNIYmKMD6yu/+KjVhYH9ygTJPPZMMTuVOjc8zUv5I3ENBnvG65f90qNWV9nEYyMJGKwFQfy8Duz4ena1icWtiDqz3jfgnM/zT+xuDOyN17+1gI0kbFh8O0l1YmCzwg69bycsWsxWnVg9IZTP5z2jyw2F1mJIxbBhfRTizLaTVGfJ4ttIskUD65ng9IsG9hkZe0TdYWH376+3XgPrHAb2NTeeBtazNpJs8S1ejz5pxGBPCeKXMLHzTpBCHLiXrkKUz3nr3zlbzA4D68dgc6Fcp/Tok8Zitmt0xJJ1GNgDQfxPHeyLsj4QdXqE5v2kjizVy9hiw74kxE5jYA86Ysm6osZHuu1qDdi46EAnyauy4hVFUSKU3xbq/468dXoTNtiQqEEDNn6k265e17SwoTV8MDZZKRu+ni7vyEyeOcObe0o+AUVp7XlchQ17NO9NGGzIdwIY2E0/CTSYDnh2P84X9iZWd/lOgJSQQGvPyyrNsMfy3gJhV2SDI8pHhfqnfsQrilJ6CSnKxpp4f8KpQab7Vqj/mB/1G2riLKUeo4jymEe8yd/uTzg10uILHaOETfs6RrOUcpEhk8eF+h+RjVfWiyyLn1EC3XF3IsrfCZcXkYmDIRXDpMyjxJpzyWEuYvJeYe6fVxNL24r6LzjMsfIMc1lkxmnV5BPe8nFuyfj+6+P0WhJg9eY01lOdTG/P/rbb/F6HKP/gvbxWTkr5JdPbMWFP1259sHrLLv5PsMKflKrpnvYene7r2sTiVmm//+KTcj0Qde56mjfuXA9ESCmoiR/1qsk/eet/+WjQuqSJUOescPO+OJyY2xK0LmlU6oqj82DQmnyT+fN2EFH+MRJ3m4PWExISEhIS8l/wG0ezg2SlMl3yAAAAAElFTkSuQmCC" width="48" height="48">
+   </h1> 
+   <div class="alert alert-danger">
+  <strong>Warning!</strong> To be added
+</div>
+ 
+   <div class="row text-center portfolio">
+   <div class='col-md-12 col-sm-12 col-xs-12'>
+   <img src="http://placehold.it/350x150"/>
+    <img src="http://placehold.it/350x150"/>
+    <img src="http://placehold.it/350x150"/>
+     </div>
+	 <div class='col-md-12 col-sm-12 col-xs-12'>
+    <img src="http://placehold.it/350x150"/>
+    <img src="http://placehold.it/350x150"/>
+    <img src="http://placehold.it/350x150"/>
+	</div>
+   </div>
+</div>
+  <div style="clear:both;"></div>
+
+
+  <div class="container-fluid test" id="contacts"
+   
+	data-slides='[
+		
+		"http://res.cloudinary.com/dx3esa92w/image/upload/v1466421991/sunset-21_rjrgrd_1_hl2tqc.jpg",
+	
+		"http://res.cloudinary.com/dx3esa92w/image/upload/c_scale,w_1280/v1466421991/Great-Sunset-wallpapers_yn93zg_1_fduz7o.jpg",
+		"http://res.cloudinary.com/dx3esa92w/image/upload/c_scale,w_1280/v1466421993/nature_backgrounds_wonderful_edition_photo_hq_7051_alykwx.jpg"
+		
+	]'>
+
+    <h2> Contact Me</h2>
+	<div class="row">
+    <div class="cite col-md-6 col-sm-12 col-xs-12">
+     <cite> 
+       The world of reality has its limits; <br>
+        the world of imagination is boundless
+        
+      </cite>
+      </div>
+    <div class='menu col-md-6 col-sm-12 col-xs-12'>
+     
+      
+      <ul class="social" >
+      <li> <a href="mailto:lostdragon1988@gmail.com"><img src='http://res.cloudinary.com/dx3esa92w/image/upload/v1466185678/Email_achmzp.png'/> </a></li>
+      
+    
+      <li> <a href='https://www.facebook.com/vera.g88'> <img src='http://res.cloudinary.com/dx3esa92w/image/upload/v1466185669/Facebook_p09aw4.png'/> </a></li>
+<li><a href="https://www.linkedin.com/in/vera-genova-74555b116"><img src='http://res.cloudinary.com/dx3esa92w/image/upload/v1466185658/Linkedin_tas0ew.png'/>  </a> </li>
+      </ul>
+      
+   
+    
+
+</div>
+
+</div>
+ </div>
+ <footer>
+ <img id='ship' src='http://starphotorostov.ucoz.com/bb72285c664c.png'> </img>
+<span> Designed by Vera G. </span> </footer>
+</div>
+
+ <script src="jsstyles.js"></script> 
+ <script src="typeit.js"></script>
+</body>
+
+
+</html>

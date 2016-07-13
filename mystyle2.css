@@ -1,0 +1,224 @@
+#navig {
+   width:100%;
+   position:fixed;
+   height:60px;
+   border-radius:7px;
+   z-index:100;
+  }
+#nav-menu {
+  margin-right:100px;
+  font-family: monospace;
+  font-size:1.3em;
+  font-weight:bold;
+    }
+#ime {
+  
+  font-size:1.6em;
+  color:	SteelBlue;
+  margin-left:40px;
+}
+
+.first { 
+background-color:darkslateblue;
+}
+.second {
+background-color:lavender;
+}
+#dragon {
+	max-width:70%; 
+	max-height:70%;
+}
+h2 {
+ font-family: 'Poiret One', cursive;
+  font-family: 'Playfair Display', serif;
+  padding:2%;
+  text-align:center;
+  color:SteelBlue ;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+#aboutme{
+	padding-top:100px;
+ font-size:1.5em;
+  /* font-family: 'Poiret One', bold; */
+font-family: 'Playfair Display', serif;
+}
+dvi {
+   
+   border-radius: 30px/10px;
+background-color:#def;
+background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+background-size:80px 80px;
+background-position:0 0, 40px 40px; } 
+h1 {
+     padding-top:50px;   
+   padding-bottom:50px;
+ 
+  text-align:center;
+   
+}
+.portfolio {
+	padding-bottom:10px;
+}
+
+img { 
+margin:10px;
+}
+.med {
+   position:absolute;
+   top: 100px;
+   left: 500px;
+  position:absolute;
+  top:200px;
+  left:0;
+  -moz-animation: cloudDrift reverse 1;
+   /* WebKit - Chrome and Safari */
+   -webkit-animation: cloudDrift reverse 1;
+   /* Opera */
+   -o-animation: cloudDrift reverse 1;
+   /* general syntax */
+   animation: cloudDrift reverse 1;
+ /* Firefox */
+   -moz-animation-duration: 7s;
+   /* WebKit - Chrome and Safari */
+   -webkit-animation-duration: 7s;
+   /* Opera */
+   -o-animation-duration: 7s;
+   /* general syntax */
+   animation-duration: 7s;
+  overflow:hidden;
+  animation-fill-mode: forwards; 
+} 
+
+
+
+/* Firefox */
+@-moz-keyframes cloudDrift {
+   from { -moz-transform: translateX(-220px); }
+   to { -moz-transform: translateX(0); }
+}
+/* WebKit - Chrome and Safari */
+@-webkit-keyframes cloudDrift {
+   from { -webkit-transform: translateX(-220px); }
+   to { -webkit-transform: translateX(0); }
+} 
+/* Opera */
+@-o-keyframes cloudDrift {
+   from { -o-transform: translateX(-220px); }
+   to { -o-transform: translateX(0); }
+}
+@keyframes cloudDrift {
+   from { transform: translateX(-220px); }
+   to { transform: translateX(0); }
+0%   { opacity: 0; }
+  20%  { opacity: 0.9; }
+   40%  { opacity: 0.8; }
+   60%  { opacity: 0.7; }
+   80%  { opacity: 0.6; }
+  
+  100% { opacity: 0; } }
+.diff {
+	display:none;
+}
+.portfolio img {
+width:70%;
+height:70%;
+}
+
+
+.menu:hover {
+  
+ 
+  
+  opacity:0.9;
+
+}
+  .social{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  
+}
+
+li {
+		
+   float:right;
+  margin-right:20px;
+  text-align:center;
+}
+li a {
+	display:inline-block;
+}
+
+ .cite {
+   
+  
+  text-align:center;
+   float:left;
+   font-size:2em;
+
+}
+
+li a img:hover {
+-webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+}
+li a img {
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+footer {
+	background-color:green;
+	height:10px;
+	border:5px solid white;
+	bottom:0;
+	}
+
+#ship {
+display:none;
+}
+body {
+	overflow-x:hidden;
+}
+#contacts {
+	background-color:MediumSpringGreen; !important
+}
+
+
+
+ 
+  .nav li {
+    left:70%;
+    text-align: cemter;
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    border-radius: 5px;
+    border: 3px solid white;
+    color:black;
+   
+     background-color: Teal;
+  }

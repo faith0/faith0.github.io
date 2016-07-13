@@ -1,0 +1,368 @@
+#navig {
+   width:100%;
+   position:fixed;
+   height:70px;
+   border-radius:7px;
+   z-index:100;
+
+
+/*background: #000000; /* fallback for old browsers */
+//background: -webkit-linear-gradient(to left, #000000 , #53346D); /* Chrome 10-25, Safari 5.1-6 */
+//background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+background: #000000; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000000 , #e74c3c); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000 , #e74c3c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    border: 2px solid white;     
+  }
+#nav-menu {
+  margin-right:100px;
+  margin-top: 10px;
+  font-family: monospace;
+  font-size:1.3em;
+  font-weight:bold;
+  
+
+    }
+#ime {
+  margin-top: 10px;
+  font-size:1.6em;
+  color:white;
+  margin-left:40px;
+}
+
+
+.first {
+
+
+  /* background-image:url('http://res.cloudinary.com/dx3esa92w/image/upload/c_scale,w_1280/v1466421990/dark-clouds-wallpaper-4_1_uknjmp.jpg'); */
+   background-image:url('http://res.cloudinary.com/dx3esa92w/image/upload/v1466421990/dark-clouds-wallpaper-4_1_uknjmp.jpg'); 
+  background-size:cover;
+  
+  background-repeat: no-repeat;
+    background-attachment: fixed;  
+  }
+
+
+#dragon {
+	max-width:300px; 
+	max-height:300px;
+}
+.second {
+ background-color: #fff; 
+/* background-image: 
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em); 
+background-size: 100% 1.2em; */
+ background-image:url('http://res.cloudinary.com/dx3esa92w/image/upload/v1468416585/goodwp.com_26287_1_ygeyii.jpg');
+ background-size:cover;
+}
+
+
+#about {
+  padding:250px 100px 200px 150px;
+   
+ }
+ 
+
+h2 {
+  
+
+  padding:100px;
+  
+  text-align:center;
+  
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#aboutme{
+ font-size:2.5em;
+  /* font-family: 'Poiret One', bold; */
+font-family: 'Playfair Display', serif;
+
+  
+}
+
+
+
+ #dvi {
+     border: 3px solid rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+   border-radius: 30px/10px;
+background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+background-size:110px 300px;
+background-repeat:repeat-x;
+
+ 
+   border: 1px solid black; } 
+h1 {
+     padding-top:50px;   
+   padding-bottom:150px;
+ 
+  text-align:center;
+   
+}
+.portfolio {
+	padding-bottom:150px;
+}
+
+img { 
+margin:10px;
+}
+
+
+
+ 
+
+
+#logo {
+   animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: Black;
+  }
+  100% {
+    color: 	White;
+  }
+}
+
+
+
+/* clouds animation */
+
+
+
+
+.med {
+   position:absolute;
+   top: 200px;
+   left: 500px;
+  position:absolute;
+  top:200px;
+  left:0;
+  -moz-animation: cloudDrift reverse 1;
+   /* WebKit - Chrome and Safari */
+   -webkit-animation: cloudDrift reverse 1;
+   /* Opera */
+   -o-animation: cloudDrift reverse 1;
+   /* general syntax */
+   animation: cloudDrift reverse 1;
+ /* Firefox */
+   -moz-animation-duration: 7s;
+   /* WebKit - Chrome and Safari */
+   -webkit-animation-duration: 7s;
+   /* Opera */
+   -o-animation-duration: 7s;
+   /* general syntax */
+   animation-duration: 7s;
+  overflow:hidden;
+  animation-fill-mode: forwards; 
+} 
+
+
+
+/* Firefox */
+@-moz-keyframes cloudDrift {
+   from { -moz-transform: translateX(-220px); }
+   to { -moz-transform: translateX(0); }
+}
+/* WebKit - Chrome and Safari */
+@-webkit-keyframes cloudDrift {
+   from { -webkit-transform: translateX(-220px); }
+   to { -webkit-transform: translateX(0); }
+} 
+/* Opera */
+@-o-keyframes cloudDrift {
+   from { -o-transform: translateX(-220px); }
+   to { -o-transform: translateX(0); }
+}
+@keyframes cloudDrift {
+   from { transform: translateX(-220px); }
+   to { transform: translateX(0); }
+0%   { opacity: 0; }
+  20%  { opacity: 0.9; }
+   40%  { opacity: 0.8; }
+   60%  { opacity: 0.7; }
+   80%  { opacity: 0.6; }
+  
+  100% { opacity: 0; } }
+
+/* cloud diff */
+.diff {
+  position:absolute;
+  top:200px;
+  left:500px;
+   animation-name: diff;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    overflow:hidden;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+   animation-fill-mode: forwards;
+}
+
+
+/* Standard syntax */
+@keyframes diff {
+  from { transform: translateX(500px); }
+   to { transform: translateX(1020px); }
+0%   { opacity: 1; }
+  20%  { opacity: 0.9; }
+   40%  { opacity: 0.8; }
+   60%  { opacity: 0.7; }
+   80%  { opacity: 0.6; }
+  
+  100% { opacity: 0; } }
+   
+
+/* end of animation */
+/* slider backgrounds contact */
+[data-slides] {
+	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/nature-wallpapers-10.jpg'); /* Default image. */
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	transition: background-image 2s linear;
+} 
+ 
+/* Use additional CSS to control the `height` of `[data-slides]`, like so: */
+
+.test { height: 220px; }
+@media all and (min-width: 48em) {
+	.test { height: 820px; }
+}
+/*  end slider*/
+@media screen and (min-width: 480px) {
+
+#wrapper {
+	 margin:0 45px 0 45px; 
+	 overflow:auto;
+	 position:absolute;
+	
+}
+}
+div.container-fluid:not(:last-of-type) {
+	margin-bottom:20px;
+}
+
+   
+body {
+ 
+
+  overflow-x:hidden;
+ background-color:#def;
+background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+background-size:80px 80px;
+background-position:0 0, 40px 40px;
+ 
+
+}
+
+
+.menu:hover {
+  
+ 
+  
+  opacity:0.9;
+
+}
+  .social{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  
+}
+
+li {
+		
+   float:right;
+  margin-right:20px;
+  text-align:center;
+}
+li a {
+	display:inline-block;
+}
+
+ .cite {
+  // background-image:url('http://res.cloudinary.com/dx3esa92w/image/upload/v1466232346/May-the-4th-Be-With-You_pezzfj.png');
+   height:350px;
+   color:white;
+   width:600px;
+  
+  text-align:center;
+   float:left;
+   font-size:2em;
+   -webkit-box-shadow: 20px 30px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 30px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 20px 30px 5px 0px rgba(0,0,0,0.75);
+}
+
+li a img:hover {
+-webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+}
+li a img {
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+footer {
+
+
+background: #000000; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000000 , #e74c3c); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000 , #e74c3c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+	height:50px;
+	border:5px solid white;
+	
+	
+}
+footer span {
+	left:40%;
+	top:20%;
+	font-size:1.5em;
+	font-family:'times new roman';
+	color:white;
+	text-align:center;
+	position:relative;
+}
+#ship {
+	opacity:0.9;
+	width:300px;
+	height;300px;
+	 position:absolute;
+  bottom: 0px;
+}
+.type-it {
+  color:white;
+  position: absolute;
+  text-align: left;
+}
